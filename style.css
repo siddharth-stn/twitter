@@ -1,0 +1,72 @@
+body {
+    position: relative;
+    background-color: bisque;
+    height: 100vh;
+}
+
+.head {
+    width: 150px;
+    height: 150px;
+    background-color: hidden;
+    border-radius: 50%;
+    box-shadow:  300px 200px  rgb(93,169,221);
+}
+
+.body {
+    position: absolute;
+    width: 300px;
+    height: 76px;
+    background-color: hidden;
+    border-bottom:  150px solid rgb(93,169,221);
+    border-radius: 0 0 0 100%;
+    transform: rotate(-60deg);
+    transform-origin: right 75px;
+    top: 152px;
+    left: 15px;
+}
+
+.wingOne, .wingTwo, .wingThree, .beakOne, .beakTwo {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background-color: hidden;
+    border-bottom:  60px solid rgb(93,169,221);
+    border-radius: 0 0 0 100%;
+    transform: rotate(2deg);
+    transform-origin: right 75px;
+    top: 220px;
+    left: 160px;
+}
+
+.wingTwo {
+    top: 250px;
+    left: 150px;
+    transform: rotate(-2deg);
+}
+
+.wingThree {
+    top: 290px;
+    transform: rotate(-3deg)
+}
+
+.beakOne {
+    top: 235px;
+    left: 415px;
+    width: 70px;
+    height: 15px;
+    border-bottom:  30px solid rgb(93,169,221);
+    border-radius: 0 0 100% 0;
+    transform: rotate(-25deg);
+    transform-origin: left 15px;
+}
+
+.beakTwo {
+    top: 250px;
+    left: 430px;
+    width: 50px;
+    height: 15px;
+    border-bottom:  30px solid rgb(93,169,221);
+    border-radius: 0 0 100% 0;
+    transform: rotate(-10deg);
+    transform-origin: left 15px;
+}
